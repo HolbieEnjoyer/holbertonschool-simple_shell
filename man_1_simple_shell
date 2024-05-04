@@ -1,0 +1,58 @@
+.TH SHELL_PROGRAM 1 "December 2023" "version 1.0" "Linux edition"
+
+.SH NAME
+shell_program \- a simple shell program
+
+.SH SYNOPSIS
+.B shell_program
+
+.SH DESCRIPTION
+The shell_program is a basic shell implementation that provides a command-line interface for executing commands. It reads input from the user, parses commands, and executes them in separate processes.
+
+.SH USAGE
+The shell_program operates in a loop, continually prompting for user input and executing commands. It supports basic shell functionalities.
+
+.SH COMMANDS
+Supported commands:
+.TP
+exit
+Exits the shell_program.
+
+.SH OPTIONS
+This program does not take any command-line options.
+
+.SH RETURN VALUE
+The shell_program returns 0 upon successful execution. Error codes might be returned if there are issues with command execution.
+
+.SH EXAMPLES
+Running the shell_program:
+
+.B $ shell_program
+
+.SH AUTHOR
+The shell_program was developed by Fakhri Amanov and Aziz Abbasov.
+
+.SH SEE ALSO
+Other related commands or programs.
+
+.SH BUGS
+There might be potential bugs or issues related to input handling or command execution.
+
+.SH NOTES
+This shell_program lacks advanced features like piping, shell built-ins, and variable expansion.
+
+.SH COPYRIGHT
+This is free software: you are free to change and redistribute it.
+
+.SH DISCLAIMER
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
+
+.SH REPORTING BUGS
+Report bugs to the author.
+
+.SH HISTORY
+Brief history or version updates.
+
+.SH REFERENCES
+Any references or resources used in developing the shell_program.
+
