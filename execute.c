@@ -52,7 +52,7 @@ int execute(char *command)
 			free(command), exit(EXIT_SUCCESS);
 		}
 		if (strchr(arr[0], '/') != NULL)
-			execve_error(arr, command)
+			execve_error(arr, command);
 		else
 		{
 			if (path == NULL)
